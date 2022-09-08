@@ -1,3 +1,6 @@
+.subMenuDisappear{
+    display: none;
+}
 .leftbar {
     height: 100vh;
     color: #fff;
@@ -5,7 +8,6 @@
     background-color: #fff;
     font-size: 16px;    
     // position: fixed;
-
     &_top {
         display: flex;
         gap: 20px;
@@ -51,4 +53,73 @@
     width: 100%;
     height: 100vh;
     overflow: auto;
+}
+.subMenu {
+    display: none;
+}
+.fas {
+        display: none;
+    
+}
+.hitn {
+    display: none;
+}
+@media (max-width: 907px) {
+    .hitn {
+        display: block;
+    }
+    .leftbar {
+        display: none;
+    }
+    .subMenuActive {
+        background: #2C384F;
+        height: 100vh;
+        width: 74%;
+        /* right: -200px; */
+        text-align: left;
+        z-index: 2;
+        position: absolute;
+    }
+    .subMenuDisappear {
+        display: none;
+    }
+    .fa-times {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 25px;
+        z-index: 100;
+        color: #ffffff;
+    }
+    .fa-bars {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 25px;
+        z-index: 100;
+        color: #080808;
+    }
+    ul, li, a {
+        color: rgb(230, 230, 230);
+        list-style: none;
+        padding: 16px;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        padding-left: 4px;
+        text-decoration: none;
+    }
+
+    li {
+        span {
+            color: grey;
+            margin-right: 10px;
+        }
+    }
+    // li:hover a{
+    //     background-color: rgb(54, 54, 54);;
+    //     color: #fff;
+    //     border-radius: 10px;
+    // }
 }
