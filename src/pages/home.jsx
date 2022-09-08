@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar'
+import facebook from '../assets/images/facebook.png'
+import email from '../assets/images/email.png'
+import insta from '../assets/images/instagram.png'
+import linkedin from '../assets/images/linkedin.png'
 
 const Home = () => {
   return (
     <div style={{display:'flex'}}>
-        <Navbar />
+        <Navbar item={['section-1', 'section-2', 'section-3', 'section-4', 'section-5']} />
         <div className='main'>
                 <div className="container">
                     <section className='home'>
@@ -15,7 +19,7 @@ const Home = () => {
                             </p>
                         </div>
                     </section>
-                    <section className='about'>
+                    <section className='about' id="section-1">
                         <div className="about_content">
                             <p className='heading'>ABOUT</p>
                             <p className='text'>I describe myself as a multidisciplinary designer, builder and leader. My skills in product, design, project management, technology and operations have allowed me to build and deliver products across many fields for my clients.</p>
@@ -26,16 +30,16 @@ const Home = () => {
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
                             <div className='about_experience'>
-                                <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
-                                <p className='date'>Jan. 2020 - Present</p>
-                            </div>
-                            <div className='about_experience'>
-                                <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
-                                <p className='date'>Jan. 2020 - Present</p>
-                            </div>
+                            <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
+                            <p className='date'>Jan. 2020 - Present</p>
+                        </div>
+                        <div className='about_experience'>
+                            <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
+                            <p className='date'>Jan. 2020 - Present</p>
+                        </div>
                         </div>
                     </section>
-                    <section className='team'>
+                    <section className='team' id="section-3">
                         <div className="team_content">
                             <p className='heading'>Team</p>
                             <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>       
@@ -44,7 +48,7 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
-                    <section className='client'>
+                    <section className='client' id="section-4">
                         <div className="client_content">
                             <p className='heading'>Client</p>
                             <p className='text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>       
@@ -52,49 +56,64 @@ const Home = () => {
                         <div className='client_ourclient'>
                             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFARC1fuCzw9lIUrY4ZS69QUrSzDi11gKPczV38dtl3ezCQeqjhB6FKd1IXBGULNYzFM&usqp=CAU' alt=''/>
                             <p>tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
+                                nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                                quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+                                sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+                                minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
                         </div>
                         <div className='client_ourclient'>
                             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFARC1fuCzw9lIUrY4ZS69QUrSzDi11gKPczV38dtl3ezCQeqjhB6FKd1IXBGULNYzFM&usqp=CAU' alt=''/>
                             <p>tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
+                                nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                                quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+                                sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+                                minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
                         </div>
                         <div className='client_ourclient'>
                             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFARC1fuCzw9lIUrY4ZS69QUrSzDi11gKPczV38dtl3ezCQeqjhB6FKd1IXBGULNYzFM&usqp=CAU' alt=''/>
                             <p>tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
+                                nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                                quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+                                sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+                                minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
                         </div>
                         <div className='client_ourclient'>
                             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFARC1fuCzw9lIUrY4ZS69QUrSzDi11gKPczV38dtl3ezCQeqjhB6FKd1IXBGULNYzFM&usqp=CAU' alt=''/>
                             <p>tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
+                                nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                                quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+                                sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+                                minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
                         </div>
                     </section>
-                   
+                    <section className='contact'>
+                        <p className='heading'>Social Media Handle</p>
+                        <div className="contact_content">
+                           <img src={facebook} alt=''/>
+                            <p>www.facebook.com/maazil</p>
+                        </div>
+                        <div className="contact_content">
+                           <img src={insta} alt=''/>
+                            <p>www.facebook.com/maazil</p>
+                        </div>
+                        <div className="contact_content">
+                           <img src={linkedin} alt=''/>
+                            <p>www.facebook.com/maazil</p>
+                        </div>
+                        <div className="contact_content">
+                           <img src={email} alt=''/>
+                            <p>www.facebook.com/maazil</p>
+                        </div>
+                    </section>
                 </div>
-            <section>
-
-            </section>
         </div>
     </div>
   )

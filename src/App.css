@@ -1,13 +1,7 @@
 .App {
     font-family: sans-serif;
   }
-  .scrollspy {
-    background-color: #515151;
-    marging: 10px;
-    position: fixed;
-    top: 0;
-    right: 0
-  }
+
   ul {
     list-style: none;
   }
@@ -19,7 +13,8 @@
     color: white;
   }
   .isCurrent {
-    font-weight: bold;
+    /* font-weight: bold; */
+    background-color: #f1a07a;
   }
   
   .isCurrent a, h2 {

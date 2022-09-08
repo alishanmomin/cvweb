@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from "react";
 
 
-const Navbar = ({ index }) => {
+const Navbar = ({ item }) => {
 
   return (
       <Fragment>
@@ -13,11 +13,13 @@ const Navbar = ({ index }) => {
         </div>
         <div className="leftbar_items">
                <ul>
-                    <li>About mazil</li>
-                    <li>Background And Skills</li>
-                    <li>Team (photos)</li>
-                    <li>Previous Clients</li>
-                    <li>Social Media Links</li>
+
+
+                <li><span>-1</span><a href="#section-1">About Mazil</a></li>
+                <li><span>-2</span><a href="#section-2">Background And Skills</a></li>
+                <li><span>-3</span><a href="#section-3">Team (photos)</a></li>
+                <li><span>-4</span><a href="#section-4">Previous Clients</a></li>
+                <li><span>-5</span><a href="#section-5">Social Media Links</a></li>
                </ul>
         </div>
         {/* <div className="left_bar_all">
