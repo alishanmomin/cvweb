@@ -55,6 +55,46 @@
             }
         }
 }
+.expSection {
+        p {
+            margin: 0;
+        }
+        padding: 0 30px;
+
+        .heading{
+            padding: 30px 0;
+            font-size: 3rem;
+            font-weight: 500;
+            text-align: left;
+        }
+        &_content {
+            .text{
+                font-size: 17px;
+                font-weight: 200;
+                text-align: left;
+            }
+    
+        }
+
+        &_experience {
+
+            span {
+                color: rgb(209, 84, 84);
+                font-style: italic;
+            }
+            .exp {
+                font-size: 17px;
+                font-weight: 600;
+
+            }
+            .date{
+                font-size: 17px;
+                font-weight: 200;
+                text-align: left;
+                margin-bottom: 20px !important;
+            }
+        }
+}
 .team {
         p {
             margin: 0;
@@ -125,7 +165,7 @@
     }
 
     .contact {
-        padding: 0 30px;
+        padding: 100px 30px;
         .heading{
             padding: 30px 0;
             font-size: 3rem;

@@ -29,20 +29,30 @@ const Home = () => {
                             <p className='heading'>ABOUT</p>
                             <p className='text'>I describe myself as a multidisciplinary designer, builder and leader. My skills in product, design, project management, technology and operations have allowed me to build and deliver products across many fields for my clients.</p>
                             <p className='text'>I have over 7 years of professional experience working for software companies. During that time, I have accumulated expertise with modern technologies, harnessing design thinking, applying agile methodologies and defining strategic objectives to deliver value to my users and drive business success.</p>
-                            <p className='heading'>Background and SKills</p>
-                            <div className='about_experience'>
+                        </div>
+                    </section>
+                    <section className='expSection' id="section-2" data-aos="fade-up">
+                            <p className='heading'>Background and Skills</p>
+                            <div className='expSection_experience'>
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='about_experience'>
-                            <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
-                            <p className='date'>Jan. 2020 - Present</p>
-                        </div>
-                        <div className='about_experience'>
-                            <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
-                            <p className='date'>Jan. 2020 - Present</p>
-                        </div>
-                        </div>
+                            <div className='expSection_experience'>
+                                <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
+                                <p className='date'>Jan. 2020 - Present</p>
+                            </div>
+                            <div className='expSection_experience'>
+                                <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
+                                <p className='date'>Jan. 2020 - Present</p>
+                            </div>
+                            <div className='expSection_experience'>
+                                <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
+                                <p className='date'>Jan. 2020 - Present</p>
+                            </div>
+                            <div className='expSection_experience'>
+                                <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
+                                <p className='date'>Jan. 2020 - Present</p>
+                            </div>
                     </section>
                     <section className='team' id="section-3" data-aos="fade-up">
                         <div className="team_content">
@@ -109,11 +119,11 @@ const Home = () => {
                            <img src={insta} alt=''/>
                             <p>maazil12</p>
                         </div>
-                        <div className="contact_content">
+                        <div className="contact_content" data-aos="fade-up">
                            <img src={linkedin} alt=''/>
                             <p>www.linkedin.com/maazil</p>
                         </div>
-                        <div className="contact_content">
+                        <div className="contact_content" data-aos="fade-up">
                            <img src={email} alt=''/>
                             <p>maazil@gmail.com</p>
                         </div>

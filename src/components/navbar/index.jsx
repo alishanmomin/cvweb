@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
+import Scrollspy from "react-scrollspy";
 
 
 const Navbar = ({ item }) => {
@@ -31,21 +32,18 @@ const [clickIndex, setClickIndex] = useState(1)
             <p>Zohaib</p>
         </div>
         <div className="leftbar_items">
-               <ul>
-
-
-                <li onClick={() => setClickIndex(1)}><span>-1</span><a className={clickIndex === 1 && "activeSub"} href="#section-1">About Mazil</a></li>
-                <li onClick={() => setClickIndex(2)}><span>-2</span><a className={clickIndex === 2 && "activeSub"} href="#section-2">Background And Skills</a></li>
-                <li  onClick={() => setClickIndex(3)}><span>-3</span><a className={clickIndex === 3 && "activeSub"} href="#section-3">Team (photos)</a></li>
-                <li  onClick={() => setClickIndex(4)}><span>-4</span><a className={clickIndex === 4 && "activeSub"} href="#section-4">Previous Clients</a></li>
-                <li  onClick={() => setClickIndex(5)}><span>-5</span><a className={clickIndex === 5 && "activeSub"} href="#section-5">Social Media Links</a></li>
-               </ul>
+            <ul>
+                <Scrollspy 
+                    className="scrollspy" items={ ['section-1', 'section-2', 'section-3', 'section-4', 'section-5'] } 
+                    currentClassName="isCurrent">
+                <li onClick={() => setClickIndex(1)}><span>-1</span><a  href="#section-1">About Mazil</a></li>
+                <li onClick={() => setClickIndex(2)}><span>-2</span><a  href="#section-2">Background And Skills</a></li>
+                <li  onClick={() => setClickIndex(3)}><span>-3</span><a  href="#section-3">Team (photos)</a></li>
+                <li  onClick={() => setClickIndex(4)}><span>-4</span><a  href="#section-4">Previous Clients</a></li>
+                <li  onClick={() => setClickIndex(5)}><span>-5</span><a  href="#section-5">Social Media Links</a></li>
+                </Scrollspy>
+            </ul>
         </div>
-        {/* <div className="left_bar_all">
-            <div className="left_bar_items">
-                <div className="left_bar_items_text">Users</div>
-            </div>
-        </div> */}
     </div> 
       
     </Fragment>
