@@ -34,7 +34,7 @@ code {
   
 
   .isCurrent  a{
-    background-color: rgb(54, 54, 54);;
+    /* background-color: rgb(54, 54, 54); */
     color: #fff !important;
     border-radius: 10px;
     padding: 14px 26px !important;
