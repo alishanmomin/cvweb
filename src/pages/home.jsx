@@ -17,7 +17,7 @@ const Home = () => {
         <div className='main'>
                 <div className="container">
                     <section className='home'>
-                        <div className="home_content">
+                        <div className="home_content" data-aos="fade-bottom">
                             <p>Hello 👋 I’m a technologist
                                 that uses design, process and
                                 strategy to build great products.
@@ -33,23 +33,23 @@ const Home = () => {
                     </section>
                     <section className='expSection' id="section-2" data-aos="fade-up">
                             <p className='heading'>Background and Skills</p>
-                            <div className='expSection_experience'>
+                            <div className='expSection_experience' data-aos="fade-up">
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience'>
+                            <div className='expSection_experience' data-aos="fade-up">
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience'>
+                            <div className='expSection_experience' data-aos="fade-up">
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience'>
+                            <div className='expSection_experience' data-aos="fade-up">
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience'>
+                            <div className='expSection_experience' data-aos="fade-up">
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>

@@ -82,6 +82,8 @@
     }
     .hitn {
         display: block;
+        position: fixed;
+        z-index: 10000;
     }
     .leftbar {
         display: none;
@@ -90,10 +92,9 @@
         background: #2C384F;
         height: 100vh;
         width: 74%;
-        /* right: -200px; */
         text-align: left;
         z-index: 2;
-        position: absolute;
+        position: fixed;
     }
     .subMenuDisappear {
         display: none;
