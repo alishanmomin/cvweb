@@ -4,7 +4,8 @@ import React, { useState, useEffect, Fragment } from "react";
 const Navbar = ({ item }) => {
 
 const [showMenu, setShowMenu] = useState(false)
-
+const [clickIndex, setClickIndex] = useState(1)
+      
   return (
       <Fragment>
         <div className="hitn">
@@ -33,11 +34,11 @@ const [showMenu, setShowMenu] = useState(false)
                <ul>
 
 
-                <li><span>-1</span><a href="#section-1">About Mazil</a></li>
-                <li><span>-2</span><a href="#section-2">Background And Skills</a></li>
-                <li><span>-3</span><a href="#section-3">Team (photos)</a></li>
-                <li><span>-4</span><a href="#section-4">Previous Clients</a></li>
-                <li><span>-5</span><a href="#section-5">Social Media Links</a></li>
+                <li onClick={() => setClickIndex(1)}><span>-1</span><a className={clickIndex === 1 && "activeSub"} href="#section-1">About Mazil</a></li>
+                <li onClick={() => setClickIndex(2)}><span>-2</span><a className={clickIndex === 2 && "activeSub"} href="#section-2">Background And Skills</a></li>
+                <li  onClick={() => setClickIndex(3)}><span>-3</span><a className={clickIndex === 3 && "activeSub"} href="#section-3">Team (photos)</a></li>
+                <li  onClick={() => setClickIndex(4)}><span>-4</span><a className={clickIndex === 4 && "activeSub"} href="#section-4">Previous Clients</a></li>
+                <li  onClick={() => setClickIndex(5)}><span>-5</span><a className={clickIndex === 5 && "activeSub"} href="#section-5">Social Media Links</a></li>
                </ul>
         </div>
         {/* <div className="left_bar_all">

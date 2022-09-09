@@ -99,7 +99,7 @@ const Home = () => {
                                 minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
                         </div>
                     </section>
-                    <section className='contact' data-aos="fade-up">
+                    <section className='contact' id="section-5" data-aos="fade-up">
                         <p className='heading'>Social Media Handle</p>
                         <div className="contact_content" data-aos="flip-left">
                            <img src={facebook} alt=''/>
