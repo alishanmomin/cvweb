@@ -30,11 +30,11 @@ const Navbar = ({ item }) => {
             <i className="fas fa-times" onClick={() => setShowMenu(!showMenu)}></i>
             <div className="leftbar_items">
                 <ul onClick={() => setShowMenu(false)}>
-                    <li><span>-1</span><a href="#section-1">About Zohaib</a></li>
-                    <li><span>-2</span><a href="#section-2">Background And Skills</a></li>
-                    <li><span>-3</span><a href="#section-3">Team (photos)</a></li>
-                    <li><span>-4</span><a href="#section-4">Previous Clients</a></li>
-                    <li><span>-5</span><a href="#section-5">Social Media Links</a></li>
+                    <li><span>-1</span><a href="#section-1">Hello</a></li>
+                    <li><span>-2</span><a href="#section-2">Skills</a></li>
+                    <li><span>-3</span><a href="#section-3">Projects</a></li>
+                    <li><span>-4</span><a href="#section-4">Clients</a></li>
+                    <li><span>-5</span><a href="#section-5">Contact</a></li>
                 </ul>
             </div>
         </div>

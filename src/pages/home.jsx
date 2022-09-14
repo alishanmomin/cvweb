@@ -47,59 +47,59 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
-                    <section className='expSection' id="section-2" data-aos="fade-up">
+                    <section className='expSection' id="section-2" data-aos="fade-bottom">
                             <p className='heading'>Experience</p>
-                            <div className='expSection_experience' data-aos="fade-up">
+                            <div className='expSection_experience' >
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience' data-aos="fade-up">
+                            <div className='expSection_experience' >
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience' data-aos="fade-up">
+                            <div className='expSection_experience' >
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience' data-aos="fade-up">
+                            <div className='expSection_experience' >
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
-                            <div className='expSection_experience' data-aos="fade-up">
+                            <div className='expSection_experience' >
                                 <p className='exp'>Head of Operations at <span>WorkingMouse‍</span></p>
                                 <p className='date'>Jan. 2020 - Present</p>
                             </div>
                             <p className='heading'>Skills</p>
                             <div className='expSection_skills'>
-                                <div className='expSection_box'  data-aos="zoom-out-right">
+                                <div className='expSection_box'  >
                                     <img src={one} alt=""/>
                                     <h3>HTML</h3>
                                 </div>
-                                <div className='expSection_box' data-aos="zoom-out-left">
+                                <div className='expSection_box'>
                                     <img src={two} alt=""/>
                                     <h3>CSS</h3>
                                 </div>
-                                <div className='expSection_box'  data-aos="zoom-out-right">
+                                <div className='expSection_box'  >
                                     <img src={three} alt=""/>
                                     <h3>SCSS/SASS</h3>
                                 </div>
-                                <div className='expSection_box' data-aos="zoom-out-left">
+                                <div className='expSection_box'>
                                     <img src={four} alt=""/>
                                     <h3>Bootstrap</h3>
                                 </div>
-                                <div className='expSection_box'  data-aos="zoom-out-right">
+                                <div className='expSection_box'  >
                                     <img src={five} alt=""/>
                                     <h3>Javascript</h3>
                                 </div>
-                                <div className='expSection_box' data-aos="zoom-out-left">
+                                <div className='expSection_box'>
                                     <img src={eight} alt=""/>
                                     <h3>Jquery</h3>
                                 </div>
-                                <div className='expSection_box'  data-aos="zoom-out-right">
+                                <div className='expSection_box'  >
                                     <img src={six} alt=""/>
                                     <h3>React</h3>
                                 </div>
-                                <div className='expSection_box' data-aos="zoom-out-left">
+                                <div className='expSection_box'>
                                     <img src={seven} alt=""/>
                                     <h3>Redux</h3>
                                 </div>
@@ -107,7 +107,7 @@ const Home = () => {
 
                     </section>
                     <section className='projects' id="section-3" data-aos="fade-bottom">
-                        <p data-aos="fade-up" className='heading'>Our Projects</p>
+                        <p  className='heading'>Our Projects</p>
                         <div className='projects_images' data-aos="zoom-in-left">
                             <img src={p1} alt=''/>
                             <img src={p2} alt=''/>
@@ -117,32 +117,32 @@ const Home = () => {
                             <img src={p6} alt=''/>
                         </div>
                     </section>
-                    <section className='client' id="section-4" data-aos="fade-up">
+                    <section className='client' id="section-4" data-aos="fade-bottom">
                         <div className="client_content">
                             <p className='heading'>Client</p>
                         <div className='client_body'>
-                            <div className='client_single' data-aos="zoom-out-left">
+                            <div className='client_single'>
                                 <img src={ngr} alt=''/>
                                 <div>
                                     <h5>NGR</h5>
                                     <p>National Growers Register are enhancing business performance for growers through streamlined data management solutions.</p>
                                 </div>
                             </div>
-                            <div className='client_single' data-aos="zoom-out-right">
+                            <div className='client_single' >
                                 <img src={hitachi} alt=''/>
                                 <div>
                                     <h5>Hitachi</h5>
                                     <p>Hitachi Construction Machinery delivers world-leading equipment and solutions to large scales mines to local owner-operators.</p>
                                 </div>
                             </div>
-                            <div className='client_single' data-aos="zoom-out-left">
+                            <div className='client_single'>
                                 <img src={unilodge} alt=''/>
                                 <div>
                                     <h5>Unilodge</h5>
                                     <p>UniLodge is the market leader in the operation and management of student accommodation across Australia and New Zealand.</p>
                                 </div>
                             </div>
-                            <div className='client_single' data-aos="zoom-out-right">
+                            <div className='client_single' >
                                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFARC1fuCzw9lIUrY4ZS69QUrSzDi11gKPczV38dtl3ezCQeqjhB6FKd1IXBGULNYzFM&usqp=CAU' alt=''/>
                                 <div>
                                     <h5>FedEx</h5>
@@ -154,7 +154,7 @@ const Home = () => {
                         </div>
                         </div>
                     </section>
-                    <section className='contact' id="section-5" data-aos="fade-up">
+                    <section className='contact' id="section-5" data-aos="fade-bottom">
                         <p className='heading'>Social Media Handle</p>
                         <div className="contact_content" data-aos="flip-left">
                            <img src={facebook} alt=''/>
@@ -164,11 +164,11 @@ const Home = () => {
                            <img src={insta} alt=''/>
                             <p>zohaib12</p>
                         </div>
-                        <div className="contact_content" data-aos="fade-up">
+                        <div className="contact_content" >
                            <img src={linkedin} alt=''/>
                             <p>www.linkedin.com/zohaib</p>
                         </div>
-                        <div className="contact_content" data-aos="fade-up">
+                        <div className="contact_content" >
                            <img src={email} alt=''/>
                             <p>zohaib@gmail.com</p>
                         </div>
