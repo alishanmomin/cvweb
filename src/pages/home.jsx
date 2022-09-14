@@ -158,19 +158,19 @@ const Home = () => {
                         <p className='heading'>Social Media Handle</p>
                         <div className="contact_content" data-aos="flip-left">
                            <img src={facebook} alt=''/>
-                            <p>www.facebook.com/maazil</p>
+                            <p>www.facebook.com/zohaib</p>
                         </div>
                         <div className="contact_content" data-aos="flip-left" >
                            <img src={insta} alt=''/>
-                            <p>maazil12</p>
+                            <p>zohaib12</p>
                         </div>
                         <div className="contact_content" data-aos="fade-up">
                            <img src={linkedin} alt=''/>
-                            <p>www.linkedin.com/maazil</p>
+                            <p>www.linkedin.com/zohaib</p>
                         </div>
                         <div className="contact_content" data-aos="fade-up">
                            <img src={email} alt=''/>
-                            <p>maazil@gmail.com</p>
+                            <p>zohaib@gmail.com</p>
                         </div>
                     </section>
                 </div>

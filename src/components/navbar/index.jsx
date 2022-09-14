@@ -30,24 +30,17 @@ const [clickIndex, setClickIndex] = useState(1)
             <p>Zohaib</p>
         </div>
         <div className="leftbar_items">
-            <ul>
                 <Scrollspy 
                     className="scrollspy" 
                     items={ ['section-1', 'section-2', 'section-3', 'section-4', 'section-5'] } 
                     currentClassName="isCurrent">
-                <li><span>-1</span><a  href="#section-1">Hello</a></li>
-                <li><span>-2</span><a  href="#section-2">Skills</a></li>
-                <li><span>-3</span><a  href="#section-3">Projects</a></li>
-                <li><span>-4</span><a  href="#section-4">Clients</a></li>
-                <li><span>-5</span><a  href="#section-5">Contact</a></li>
-{/* 
-                <span>-1</span><a  href="#section-1">Hello</a>
-               <span>-2</span><a  href="#section-2">Skills</a>
-               <span>-3</span><a  href="#section-3">Clients</a>
-               <span>-4</span><a  href="#section-4">Projects</a>
-               <span>-5</span><a  href="#section-5">Contact</a> */}
+                <a className="insideA" href="#section-1">Hello</a>
+                <a className="insideA" href="#section-2">Skills</a>
+                <a className="insideA" href="#section-3">Projects</a>
+                <a className="insideA" href="#section-4">Clients</a>
+                <a className="insideA" href="#section-5">Contact</a>
                 </Scrollspy>
-            </ul>
+           
         </div>
     </div> 
       

@@ -15,9 +15,36 @@ code {
     font-family: sans-serif;
   }
   .scrollspy {
-    /* position: fixed;
-    top: 0;
-    right: 0 */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .scrollspy {
+    /* width: 150px;   
+    color: black;
+    text-align: right;
+    padding: 13px 40px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 10px 10px 0; */
+
+  }
+  .insideA {
+    width: 150px;   
+    color: #222222;
+    text-align: right;
+    padding: 13px 40px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 10px 10px 0;
+    background: #fff;
+    margin: 10px 0;
+  }
+  .scrollspy a:hover{
+    background: #222222;
+    color: white;
   }
   /* ul {
     list-style: none;
@@ -33,10 +60,9 @@ code {
     color: #fff !important;  } */
   
 
-  .isCurrent a{
-    background-color: rgb(54, 54, 54);
-    color: rgb(248, 248, 248) !important;
-    border-radius: 10px;
-    padding: 10px 46px !important;
+  .isCurrent, a {
+    background: #222222;
+    color: white;
+
 
 }
