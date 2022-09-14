@@ -16,7 +16,7 @@ const [clickIndex, setClickIndex] = useState(1)
             <i className="fas fa-times" onClick={() => setShowMenu(!showMenu)}></i>
             <div className="leftbar_items">
                 <ul>
-                    <li><span>-1</span><a href="#section-1">About Mazil</a></li>
+                    <li><span>-1</span><a href="#section-1">About Zohaib</a></li>
                     <li><span>-2</span><a href="#section-2">Background And Skills</a></li>
                     <li><span>-3</span><a href="#section-3">Team (photos)</a></li>
                     <li><span>-4</span><a href="#section-4">Previous Clients</a></li>
@@ -27,7 +27,7 @@ const [clickIndex, setClickIndex] = useState(1)
     <div className="leftbar">
         <div className="leftbar_top">
             <img alt="" src="https://uploads-ssl.webflow.com/62c55bae09e0c918864f54ef/62c567965f116e0fc0d08146_favicon.png" />
-            <p>Mazil</p>
+            <p>Zohaib</p>
         </div>
         <div className="leftbar_items">
             <ul>
@@ -35,11 +35,17 @@ const [clickIndex, setClickIndex] = useState(1)
                     className="scrollspy" 
                     items={ ['section-1', 'section-2', 'section-3', 'section-4', 'section-5'] } 
                     currentClassName="isCurrent">
-                <li><span>-1</span><a  href="#section-1">About Mazil</a></li>
-                <li><span>-2</span><a  href="#section-2">Background And Skills</a></li>
-                <li><span>-3</span><a  href="#section-3">Team (photos)</a></li>
-                <li><span>-4</span><a  href="#section-4">Previous Clients</a></li>
-                <li><span>-5</span><a  href="#section-5">Social Media Links</a></li>
+                <li><span>-1</span><a  href="#section-1">Hello</a></li>
+                <li><span>-2</span><a  href="#section-2">Skills</a></li>
+                <li><span>-3</span><a  href="#section-3">Projects</a></li>
+                <li><span>-4</span><a  href="#section-4">Clients</a></li>
+                <li><span>-5</span><a  href="#section-5">Contact</a></li>
+{/* 
+                <span>-1</span><a  href="#section-1">Hello</a>
+               <span>-2</span><a  href="#section-2">Skills</a>
+               <span>-3</span><a  href="#section-3">Clients</a>
+               <span>-4</span><a  href="#section-4">Projects</a>
+               <span>-5</span><a  href="#section-5">Contact</a> */}
                 </Scrollspy>
             </ul>
         </div>
