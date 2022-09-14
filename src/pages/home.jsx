@@ -71,44 +71,44 @@ const Home = () => {
                             </div>
                             <p className='heading'>Skills</p>
                             <div className='expSection_skills'>
-                                <div className='expSection_box'>
+                                <div className='expSection_box'  data-aos="zoom-out-right">
                                     <img src={one} alt=""/>
                                     <h3>HTML</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box' data-aos="zoom-out-left">
                                     <img src={two} alt=""/>
                                     <h3>CSS</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box'  data-aos="zoom-out-right">
                                     <img src={three} alt=""/>
                                     <h3>SCSS/SASS</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box' data-aos="zoom-out-left">
                                     <img src={four} alt=""/>
                                     <h3>Bootstrap</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box'  data-aos="zoom-out-right">
                                     <img src={five} alt=""/>
                                     <h3>Javascript</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box' data-aos="zoom-out-left">
                                     <img src={eight} alt=""/>
                                     <h3>Jquery</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box'  data-aos="zoom-out-right">
                                     <img src={six} alt=""/>
                                     <h3>React</h3>
                                 </div>
-                                <div className='expSection_box'>
+                                <div className='expSection_box' data-aos="zoom-out-left">
                                     <img src={seven} alt=""/>
                                     <h3>Redux</h3>
                                 </div>
                             </div>
 
                     </section>
-                    <section className='projects' id="section-3">
+                    <section className='projects' id="section-3" data-aos="fade-bottom">
                         <p data-aos="fade-up" className='heading'>Our Projects</p>
-                        <div className='projects_images'>
+                        <div className='projects_images' data-aos="zoom-in-left">
                             <img src={p1} alt=''/>
                             <img src={p2} alt=''/>
                             <img src={p4} alt=''/>
@@ -121,28 +121,28 @@ const Home = () => {
                         <div className="client_content">
                             <p className='heading'>Client</p>
                         <div className='client_body'>
-                            <div className='client_single'>
+                            <div className='client_single' data-aos="zoom-out-left">
                                 <img src={ngr} alt=''/>
                                 <div>
                                     <h5>NGR</h5>
                                     <p>National Growers Register are enhancing business performance for growers through streamlined data management solutions.</p>
                                 </div>
                             </div>
-                            <div className='client_single'>
+                            <div className='client_single' data-aos="zoom-out-right">
                                 <img src={hitachi} alt=''/>
                                 <div>
                                     <h5>Hitachi</h5>
                                     <p>Hitachi Construction Machinery delivers world-leading equipment and solutions to large scales mines to local owner-operators.</p>
                                 </div>
                             </div>
-                            <div className='client_single'>
+                            <div className='client_single' data-aos="zoom-out-left">
                                 <img src={unilodge} alt=''/>
                                 <div>
                                     <h5>Unilodge</h5>
                                     <p>UniLodge is the market leader in the operation and management of student accommodation across Australia and New Zealand.</p>
                                 </div>
                             </div>
-                            <div className='client_single'>
+                            <div className='client_single' data-aos="zoom-out-right">
                                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFARC1fuCzw9lIUrY4ZS69QUrSzDi11gKPczV38dtl3ezCQeqjhB6FKd1IXBGULNYzFM&usqp=CAU' alt=''/>
                                 <div>
                                     <h5>FedEx</h5>

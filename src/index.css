@@ -41,6 +41,7 @@ code {
     border-radius: 0 10px 10px 0;
     background: #fff;
     margin: 10px 0;
+    text-transform: uppercase;
   }
   .scrollspy a:hover{
     background: #222222;
