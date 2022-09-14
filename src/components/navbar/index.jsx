@@ -1,21 +1,35 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect, Fragment, useRef } from "react";
 import Scrollspy from "react-scrollspy";
 
 
 const Navbar = ({ item }) => {
 
-const [showMenu, setShowMenu] = useState(false)
-const [clickIndex, setClickIndex] = useState(1)
+    const [showMenu, setShowMenu] = useState(false)
+
+    const componentRef = useRef()
+    
+    const closeSidebar = (e) => {
+        if(componentRef){
+           if (!componentRef.current.contains(e.target)) {
+            setShowMenu(false)
+           }
+        }      
+    }
+    
+    useEffect(() => {
+       document.body.addEventListener("click", closeSidebar, true)
+      }, [])
+    
       
   return (
       <Fragment>
         <div className="hitn">
             {!showMenu  && <i className="fas fa-bars" onClick={() => setShowMenu(!showMenu)}></i>}
         </div>        
-        <div className={showMenu ? "subMenuActive" : "subMenuDisappear"}>
+        <div className={showMenu ? "subMenuActive" : "subMenuDisappear"} onClick={(e) => closeSidebar(e)} ref={componentRef}>
             <i className="fas fa-times" onClick={() => setShowMenu(!showMenu)}></i>
             <div className="leftbar_items">
-                <ul>
+                <ul onClick={() => setShowMenu(false)}>
                     <li><span>-1</span><a href="#section-1">About Zohaib</a></li>
                     <li><span>-2</span><a href="#section-2">Background And Skills</a></li>
                     <li><span>-3</span><a href="#section-3">Team (photos)</a></li>
