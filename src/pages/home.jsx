@@ -160,15 +160,15 @@ const Home = () => {
                            <img src={facebook} alt=''/>
                             <p>www.facebook.com/zohaib</p>
                         </div>
-                        <div className="contact_content" data-aos="flip-left" >
+                        <div className="contact_content" data-aos="flip-right" >
                            <img src={insta} alt=''/>
                             <p>zohaib12</p>
                         </div>
-                        <div className="contact_content" >
+                        <div className="contact_content" data-aos="flip-left">
                            <img src={linkedin} alt=''/>
                             <p>www.linkedin.com/zohaib</p>
                         </div>
-                        <div className="contact_content" >
+                        <div className="contact_content" data-aos="flip-right">
                            <img src={email} alt=''/>
                             <p>zohaib@gmail.com</p>
                         </div>
