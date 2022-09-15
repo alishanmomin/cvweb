@@ -3,11 +3,48 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/styles/app.scss'
 import "./assets/fontawesome/css/all.css";
 import Home from './pages/home';
+import { MessengerChat } from "react-messenger-chat-plugin";
 
 function App()
 {
     return (
-        <Home />
+        <>
+            <MessengerChat
+                pageId="Linkitsoft"
+                language="sv_SE"
+                themeColor={"#000000"}
+                bottomSpacing={300}
+                loggedInGreeting="loggedInGreeting"
+                loggedOutGreeting="loggedOutGreeting"
+                greetingDialogDisplay={"show"}
+                debugMode={true}
+                onMessengerShow={() =>
+                {
+                    console.log("onMessengerShow");
+                }}
+                onMessengerHide={() =>
+                {
+                    console.log("onMessengerHide");
+                }}
+                onMessengerDialogShow={() =>
+                {
+                    console.log("onMessengerDialogShow");
+                }}
+                onMessengerDialogHide={() =>
+                {
+                    console.log("onMessengerDialogHide");
+                }}
+                onMessengerMounted={() =>
+                {
+                    console.log("onMessengerMounted");
+                }}
+                onMessengerLoad={() =>
+                {
+                    console.log("onMessengerLoad");
+                }}
+            />,
+            <Home />
+        </>
     );
 }
 
