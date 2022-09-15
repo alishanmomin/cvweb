@@ -9,6 +9,7 @@ function App()
 {
     return (
         <>
+            <h2>Hello</h2>
             <MessengerChat
                 pageId="Linkitsoft"
                 language="sv_SE"
@@ -43,7 +44,7 @@ function App()
                     console.log("onMessengerLoad");
                 }}
             />,
-            <Home />
+            {/* <Home /> */}
         </>
     );
 }
